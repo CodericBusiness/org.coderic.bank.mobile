@@ -3,7 +3,7 @@ name: Testing
 on: [push, pull_request]
 concurrency:
   group: testing
-  cancel-in-progress: false
+  cancel-in-progress: true
 permissions:
   contents: read
   pages: write
