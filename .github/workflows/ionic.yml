@@ -45,7 +45,7 @@ jobs:
       - name: Install app dependencies
         run: npm install
       - name: Build Ionic App
-        run: ionic build
+        run: ionic build --prod
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - run: cp www/index.html www/404.html

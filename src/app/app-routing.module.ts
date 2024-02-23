@@ -12,7 +12,7 @@ const routes: Routes = [
   imports: [
     RouterModule.forRoot(routes, {
       preloadingStrategy: PreloadAllModules,
-      useHash: !environment.production
+      useHash: true
     })
   ],
   exports: [RouterModule]
