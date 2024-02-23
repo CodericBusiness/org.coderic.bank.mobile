@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "coderic-banca": {
+      "hosting": {
+        "app": [
+          "coderic-banca-mobile-app"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "coderic-banca"
+  }
+}
