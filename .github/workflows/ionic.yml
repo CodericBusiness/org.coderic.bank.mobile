@@ -4,6 +4,10 @@ on: [push, pull_request]
 concurrency:
   group: testing
   cancel-in-progress: false
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 jobs:
   test:
     name: Build APK
