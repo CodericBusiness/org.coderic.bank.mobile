@@ -6,7 +6,7 @@
     "email": "coderic@coderic.org",
     "url": "https://codericbusiness.github.io"
   },
-  "license":"Apache-2.0",
+  "license":"GPL-3.0-only",
   "description": "Bank Mobile",
   "homepage": "https://github.com/CodericBusiness/org.coderic.bank.mobile",
   "scripts": {
